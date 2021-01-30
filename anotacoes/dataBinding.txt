@@ -1,0 +1,16 @@
+para adicionar o data binding é preciso primeiro habilitá-lo
+
+para isso definimos no build.gradle do app a seguindo configuração dentro de android
+
+dataBinding {
+    enabled = true
+}
+
+para usar o binding precisamos envolver toda o xml referente a tela em
+uma tag layout
+
+obs: é possível mover as props de
+androidx.constraintlayout.widget.ConstraintLayout
+exceto as de height e width, as outras
+não resultarão em problemas
+
