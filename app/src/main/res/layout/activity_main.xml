@@ -63,7 +63,7 @@
             app:layout_constraintVertical_bias="0.449" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/answer1TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Resposta 1"
@@ -76,7 +76,7 @@
             app:layout_constraintVertical_bias="0.53" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/answer2TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Resposta 2"
@@ -86,10 +86,10 @@
             app:layout_constraintHorizontal_bias="0.574"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.663" />
+            app:layout_constraintVertical_bias="0.629" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/answer3TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Resposta 3"
@@ -99,7 +99,20 @@
             app:layout_constraintHorizontal_bias="0.574"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.813" />
+            app:layout_constraintVertical_bias="0.741" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="205dp"
+            android:layout_height="69dp"
+            android:text="Resultado"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.938" />
 
         <Button
             android:id="@+id/buttonToTest1"
@@ -123,7 +136,7 @@
             app:layout_constraintHorizontal_bias="0.119"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.669" />
+            app:layout_constraintVertical_bias="0.633" />
 
         <Button
             android:id="@+id/buttonToTest3"
@@ -135,7 +148,19 @@
             app:layout_constraintHorizontal_bias="0.119"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.819" />
+            app:layout_constraintVertical_bias="0.743" />
+
+        <Button
+            android:id="@+id/buttonResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="verificar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.909" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
