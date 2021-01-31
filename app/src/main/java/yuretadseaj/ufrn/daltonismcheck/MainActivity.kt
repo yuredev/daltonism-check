@@ -11,7 +11,6 @@ import yuretadseaj.ufrn.daltonismcheck.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private var testFinalResult: Int = 0
 
     private val test1 = Test(1, 29)
     private val test2 = Test(2, 74)
